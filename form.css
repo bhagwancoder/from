@@ -1,0 +1,32 @@
+.form-title{
+    text-transform: capitalize;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 10px;
+}
+.form-container {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+.width-full {
+    width: 100%;
+}
+.cols-3{
+    width: 31.5%;
+}
+.form-container input {
+    display: block;
+    width: 100%;
+    padding:8px 5px;
+    border:1px solid #d0d0d0;
+    background-color: #fff;
+    font-size: 16px;
+}
+.form-container input:focus {
+    outline: none;
+    border-color: #444;
+    color: #0000ff
+}
